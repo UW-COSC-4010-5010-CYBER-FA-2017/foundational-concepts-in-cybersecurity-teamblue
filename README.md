@@ -25,12 +25,12 @@ Least Privelage:
 - Improper - The user enters in their name, and they're given admin privelages whether they are an admin or not.
 
 Modularity:
-- Proper - 
-- Improper - 
+- Proper - This program contains an array of integers and two operations to be carried out on the array that are broken into seperate functions and called using standard function calls.
+- Improper - This program contains an array of integers a two operations to be applied to the array that exist in the main fuction and are "called" using goto commands.
 
 Layering:
-- Proper -
-- Improper -
+- Proper - This program requests that the user identify themselves by Username and password, the recognized user is then allowed to 'interact' with the program though fluff commands. Some commands require an additional password before access is allowed.
+- Improper - This program asks the user for a user name, if the user name is known the user is allowed access with no further obstacles.
 
 Abstraction:
 - Proper - There's a class that contains private methods. The methods can't be called publicly so that there's less work for the developer.
@@ -46,5 +46,5 @@ Simplicity:
 
 Minimization:
 - Proper - 
-- Improper - 
+- Improper - This program waits for the user to enter a block of text then tries to assemple the message "Hello World." If certain letters are not found the program will again wait for further text to be entered.
 
